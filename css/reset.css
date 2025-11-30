@@ -1,0 +1,48 @@
+/* Базовый box-sizing */
+html {
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+/* Ссылки без подчеркивания по умолчанию */
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
+
+/* Картинки ведут себя адекватно */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Убираем margin у списков */
+ul, ol {
+    list-style: none;
+}
+
+/*  Обнуление стилей у кнопки*/
+button {
+    border: none;
+    background: none;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
